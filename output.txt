@@ -1,0 +1,71 @@
+(master) $ python main.py -c 13 -m 2 -s 1 -p 1
+=================Trick #1==================
+SMART1 is leading this trick
+SMART1 played ♠A
+ROBOT1 played ♠2
+ROBOT2 played ♠7
+ZENG follows ♠A by
+0:♠3
+1:♠5
+2:♠K
+         picking a number from 0 to 2: 0
+ZENG played ♠3
+========= Trick #1 winner: SMART1 =========
+=================Trick #2==================
+SMART1 is leading this trick
+SMART1 played ♥Q
+ROBOT1 played ♥A
+ROBOT2 played ♥2
+ZENG follows ♥A by
+ZENG played ♥K
+========= Trick #2 winner: ROBOT1 =========
+=================Trick #3==================
+ROBOT1 is leading this trick
+ROBOT1 played ♠9
+ROBOT2 played ♦5
+ZENG follows ♠9 by
+0:♠5
+1:♠K
+         picking a number from 0 to 1: 1
+ZENG played ♠K
+SMART1 played ♠6
+========= Trick #3 winner: ZENG =========
+=================Trick #4==================
+ZENG is leading this trick
+0:♣7
+1:♣10
+2:♣A
+3:♦3
+4:♦4
+5:♦7
+6:♦9
+7:♦Q
+8:♦K
+9:♠5
+         picking a number from 0 to 9: 2
+ZENG played ♣A
+SMART1 played ♣2
+ROBOT1 played ♣5
+ROBOT2 played ♣3
+========= Trick #4 winner: ZENG =========
+...
+=================================Summary================================
+Trick#  Lead    Cards Played                                    Winner
+1       SMART1  SMART1:♠A; ROBOT1:♠2; ROBOT2:♠7; ZENG:♠3        SMART1
+2       SMART1  SMART1:♥Q; ROBOT1:♥A; ROBOT2:♥2; ZENG:♥K        ROBOT1
+3       ROBOT1  ROBOT1:♠9; ROBOT2:♦5; ZENG:♠K; SMART1:♠6        ZENG
+4       ZENG    ZENG:♣A; SMART1:♣2; ROBOT1:♣5; ROBOT2:♣3        ZENG
+5       ZENG    ZENG:♦Q; SMART1:♦2; ROBOT1:♦J; ROBOT2:♦A        ROBOT2
+6       ROBOT2  ROBOT2:♦6; ZENG:♦K; SMART1:♦8; ROBOT1:♥3        ZENG
+7       ZENG    ZENG:♦9; SMART1:♦10; ROBOT1:♠4; ROBOT2:♣4       SMART1
+8       SMART1  SMART1:♣J; ROBOT1:♠8; ROBOT2:♣Q; ZENG:♣7        ROBOT2
+9       ROBOT2  ROBOT2:♥J; ZENG:♦3; SMART1:♥4; ROBOT1:♥5        ROBOT2
+10      ROBOT2  ROBOT2:♥7; ZENG:♦4; SMART1:♥10; ROBOT1:♥6       SMART1
+11      SMART1  SMART1:♥8; ROBOT1:♠10; ROBOT2:♥9; ZENG:♦7       ROBOT2
+12      ROBOT2  ROBOT2:♣9; ZENG:♣10; SMART1:♣6; ROBOT1:♠J       ZENG
+13      ZENG    ZENG:♠5; SMART1:♣8; ROBOT1:♠Q; ROBOT2:♣K        ROBOT1
+We got a tie in this game
+Winner of the game : ROBOT2 got 4 tricks.
+Winner of the game : ZENG got 4 tricks.
+Player SMART1 got 3 tricks.
+Player ROBOT1 got 2 tricks.
